@@ -12,7 +12,7 @@ From npm
 $ npm install generate-pincode-cli -g
 ```
 
-## Usage - cli
+## Usage
 
 If not supplied with a length it returns a four digit pincode.
 
@@ -29,11 +29,14 @@ $ pincode <length>
 To see version number
 
 ```sh
-$ generate-pincode -v
+$ pincode -v
 ```
 
 To see help
 
 ```sh
-$ generate-pincode -h
+$ pincode -h
 ```
+
+## Related
+- [generate-pincode](https://github.com/zrrrzzt/generate-pincode) The API for this module.
