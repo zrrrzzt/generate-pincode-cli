@@ -1,8 +1,8 @@
 {
   "name": "generate-pincode-cli",
   "description": "CLI for generating random pincodes",
-  "version": "1.0.2",
-  "license": "CC0-1.0",
+  "version": "1.0.4",
+  "license": "MIT",
   "author": {
     "name": "Geir Gåsodden",
     "email": "geir.gasodden@pythonia.no"
@@ -24,19 +24,19 @@
     "pincode": "cli.js"
   },
   "engines": {
-    "node": ">=0.12.0"
+    "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "tap --reporter=spec test/*.js",
+    "test": "standard && tap --reporter=spec test/*.js",
     "coverage": "tap test/*.js --coverage",
     "coveralls": "tap --cov --coverage-report=lcov test/*.js && cat coverage/lcov.info | coveralls"
   },
   "devDependencies": {
     "coveralls": "^2.11.3",
-    "jscs": "^1.13.1",
+    "standard": "^5.0.1",
     "tap": "^1.3.1"
   },
   "dependencies": {
-    "generate-pincode": "^2.0.3"
+    "generate-pincode": "^3.0.1"
   }
 }
