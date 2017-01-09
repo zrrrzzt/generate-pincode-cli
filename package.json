@@ -34,7 +34,7 @@
   "devDependencies": {
     "coveralls": "^2.11.3",
     "standard": "^8.5.0",
-    "tap": "^8.0.0"
+    "tap": "^9.0.3"
   },
   "dependencies": {
     "generate-pincode": "^3.0.1"
