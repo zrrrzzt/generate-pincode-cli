@@ -1,6 +1,7 @@
 [![Build Status](https://travis-ci.org/zrrrzzt/generate-pincode-cli.svg?branch=master)](https://travis-ci.org/zrrrzzt/generate-pincode-cli)
 [![Coverage Status](https://coveralls.io/repos/zrrrzzt/generate-pincode-cli/badge.svg?branch=master&service=github)](https://coveralls.io/github/zrrrzzt/generate-pincode-cli?branch=master)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
+
 # generate-pincode-cli
 
 CLI for generating random pincodes.
@@ -40,4 +41,12 @@ $ pincode -h
 ```
 
 ## Related
+
 - [generate-pincode](https://github.com/zrrrzzt/generate-pincode) The API for this module.
+
+
+## License
+
+[MIT](LICENSE)
+
+![Robohash image of generate-pincode-cli](https://robots.kebabstudios.party/generate-pincode-cli.png "Robohash image of generate-pincode-cli")
