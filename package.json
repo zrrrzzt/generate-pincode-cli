@@ -37,6 +37,6 @@
     "tap": "^10.1.0"
   },
   "dependencies": {
-    "generate-pincode": "^3.0.1"
+    "generate-pincode": "^4.0.1"
   }
 }
