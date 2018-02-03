@@ -38,6 +38,6 @@
     "tap": "11.0.1"
   },
   "dependencies": {
-    "generate-pincode": "5.0.0"
+    "generate-pincode": "5.0.1"
   }
 }
