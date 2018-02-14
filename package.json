@@ -15,21 +15,24 @@
   ],
   "repository": {
     "type": "git",
-    "url": "http://github.com/zrrrzzt/generate-pincode-cli.git"
+    "url": "https://github.com/zrrrzzt/generate-pincode-cli.git"
   },
   "bugs": {
-    "url": "http://github.com/zrrrzzt/generate-pincode-cli/issues"
+    "url": "https://github.com/zrrrzzt/generate-pincode-cli/issues"
   },
+  "homepage": "https://github.com/zrrrzzt/generate-pincode-cli#readme",
   "bin": {
     "pincode": "cli.js"
   },
   "engines": {
-    "node": ">=4.8.4"
+    "node": ">=8.9.4"
   },
   "scripts": {
     "test": "standard && nsp check && tap --reporter=spec test/*.js",
     "coverage": "tap test/*.js --coverage",
-    "coveralls": "tap --cov --coverage-report=lcov test/*.js && cat coverage/lcov.info | coveralls"
+    "coveralls": "tap --cov --coverage-report=lcov test/*.js && cat coverage/lcov.info | coveralls",
+    "standard-fix": "standard --fix",
+    "refresh": "rm -rf node_modules && rm package-lock.json && npm install"
   },
   "devDependencies": {
     "coveralls": "3.0.0",
