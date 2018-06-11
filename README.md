@@ -40,6 +40,14 @@ To see help
 $ pincode -h
 ```
 
+#### with npx
+
+If you don't want to install anything you can use npx
+
+```sh
+$ npx generate-pincode-cli
+```
+
 ## Related
 
 - [generate-pincode](https://github.com/zrrrzzt/generate-pincode) The API for this module.

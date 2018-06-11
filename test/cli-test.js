@@ -54,17 +54,17 @@ tap.test('It returns version with --version flag', function versionWithV (test) 
 })
 
 tap.test('It generates a pincode with length 4 as default',
-function cliDefault (test) {
-  exec('./cli.js', function getDefault (error, stdout, stderr) {
-    if (error) {
-      console.error(stderr.toString())
-      throw error
-    } else {
-      test.equal(stdout.toString().trim().length, 4)
-      test.end()
-    }
+  function cliDefault (test) {
+    exec('./cli.js', function getDefault (error, stdout, stderr) {
+      if (error) {
+        console.error(stderr.toString())
+        throw error
+      } else {
+        test.equal(stdout.toString().trim().length, 4)
+        test.end()
+      }
+    })
   })
-})
 
 tap.test('It generates a pincode with correct length',
   function cliDefault (test) {
