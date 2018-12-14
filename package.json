@@ -41,6 +41,6 @@
     "tap": "12.1.1"
   },
   "dependencies": {
-    "generate-pincode": "5.0.2"
+    "generate-pincode": "5.0.3"
   }
 }
