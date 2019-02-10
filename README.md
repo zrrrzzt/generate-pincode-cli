@@ -56,5 +56,3 @@ $ npx generate-pincode-cli
 ## License
 
 [MIT](LICENSE)
-
-![Robohash image of generate-pincode-cli](https://robots.kebabstudios.party/generate-pincode-cli.png "Robohash image of generate-pincode-cli")
