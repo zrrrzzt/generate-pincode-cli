@@ -1,7 +1,7 @@
 {
   "name": "generate-pincode-cli",
   "description": "CLI for generating random pincodes",
-  "version": "3.0.2",
+  "version": "4.0.0",
   "license": "MIT",
   "author": {
     "name": "Geir Gåsodden",
