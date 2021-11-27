@@ -28,7 +28,7 @@
     "node": ">=14.18.1"
   },
   "scripts": {
-    "test": "standard && npm audit && tap --reporter=spec test/*.js",
+    "test": "standard && tap --reporter=spec test/*.js",
     "test-offline": "standard && tap --reporter=spec test/*.js",
     "coverage": "tap test/*.js --coverage",
     "standard-fix": "standard --fix",
