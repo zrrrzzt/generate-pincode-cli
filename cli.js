@@ -1,11 +1,11 @@
 #!/usr/bin/env node
 'use strict'
 
-var gpc = require('generate-pincode')
-var pkg = require('./package.json')
-var getHelpText = require('./lib/getHelpText')
-var pincodeLength = process.argv[2] || 4
-var argv = process.argv
+const gpc = require('generate-pincode')
+const pkg = require('./package.json')
+const getHelpText = require('./lib/getHelpText')
+const pincodeLength = process.argv[2] || 4
+const argv = process.argv
 
 if (argv.indexOf('-h') !== -1 || argv.indexOf('--help') !== -1) {
   console.log(getHelpText())
