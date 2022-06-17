@@ -36,7 +36,7 @@
   },
   "devDependencies": {
     "standard": "17.0.0",
-    "tap": "16.2.0"
+    "tap": "16.3.0"
   },
   "dependencies": {
     "generate-pincode": "6.0.0"
